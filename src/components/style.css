@@ -1,0 +1,299 @@
+/* Navbar */
+.nav-bar{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:0%;
+    position: sticky;
+}
+
+.title{
+    width: 20%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title p{
+    margin: 0%;
+    font-size: 20px;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+.nav-links{
+    width: 80%;
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-links li{
+ list-style: none;
+ margin: 20px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nav-links li a:hover{
+    color: lightgray;
+}
+
+.small-badge{
+    margin:10px;
+    background-color: gray;
+    padding: 10px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 50%;
+    text-align: center;
+    width: 28px;
+    height: 28px;
+    display: inline;
+    color: whitesmoke;
+}
+
+
+/* ProductList */
+
+.noproducts{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* product container */
+
+.product-container{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    margin:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.images{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+.product-info{
+    width: 60%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.product-info h2{
+    font-size: 18px;
+    font-weight: 500;
+    color: #0F1111;
+}
+
+.spec{
+   width: 80%;
+   height: 160px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 20px;
+}
+
+.spec p{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.buttons-container{
+    width: 20%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+}
+.btn-container{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+ border-radius: 0%;
+}
+.total-container{
+    width: 20%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-container h2{
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 2px solid black;
+}
+
+.remove-btn{
+    width:100px;
+    border: none;
+    text-align: start;
+    background-color: #FFF;
+    font-size: 16px;
+}
+
+.remove-btn:hover{
+ color: #2370f4;
+}
+/* Footer Design */
+
+.footer-container{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    position: sticky;
+    bottom: 0%;
+    margin-top: 100px;
+}
+
+.footer-btns{
+    width: 20%;
+    height: 60px;
+}
+
+.buttonsf{
+    border-radius: 0%;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+.total{
+    width: 60%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.total h2{
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+
+/* form */
+
+.form-container{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.form-items{
+ width: 50%;
+ height: 100px;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+
+}
+
+.form-items label{
+    margin: 10px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+/* Price component */
+.price-container{
+    width: 80%;
+    height: 300px;
+    background-color: #FFF;
+}
+
+.price-details{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.total-price{
+ width: 100%;
+ height: 180px;
+ display: flex;
+ flex-direction: column;
+}
+
+.price-details span{
+    margin: 20px;
+    font-size: 18px;
+  
+}
+
+.prices{
+    width: auto;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.prices p{
+    font-size: 18px;
+}
+
+.prices h2{
+    font-size: 18px;
+}
+
+.prices h2 p{
+    font-size: 16px;
+    display: inline-block;
+    color: black;
+    font-weight: 400;
+
+}
+.payment{
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+
+.price-btns{
+    width: 50%;
+}
+
+.btnclr{
+    background-color: #FB641b;
+    border: none;
+}
+
+.btnclr:hover{
+    background-color: #FB641b;
+}
